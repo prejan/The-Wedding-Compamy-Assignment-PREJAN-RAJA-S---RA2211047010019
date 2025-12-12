@@ -19,7 +19,9 @@ This project is implemented as part of a **Backend Intern Assignment**.
 
 ---
 
-##  Architecture Overview
+##  Architecture Overview and Architecture Diagram
+<img width="993" height="486" alt="image" src="https://github.com/user-attachments/assets/f125c41f-e207-431d-8c1a-7cceb70675f7" />
+
 
 - **Master Database (`master_db`)**
   - Stores organization metadata
@@ -140,6 +142,18 @@ Stateless authentication
 Large number of collections can increase DB management complexity
 
 Cross-tenant analytics need aggregation at master DB level
+
+#Outputs
+- MongoDB Compass
+<img width="1756" height="873" alt="image" src="https://github.com/user-attachments/assets/717ca9d3-3abc-4877-be0e-31e04db8558d" />
+<img width="1762" height="1002" alt="image" src="https://github.com/user-attachments/assets/2ddd9080-a885-4abc-b759-eff322db3734" />
+<img width="1772" height="1008" alt="image" src="https://github.com/user-attachments/assets/6be20631-8819-4268-b830-5a64993c0015" />
+- Website using Python uvicorn
+  [Wedding Organization Management Service UI.pdf](https://github.com/user-attachments/files/24136608/Wedding.Organization.Management.Service.UI.pdf)
+  
+
+
+
 
 # Conclusion
 
