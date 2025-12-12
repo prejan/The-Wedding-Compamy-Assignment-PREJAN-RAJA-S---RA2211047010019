@@ -75,13 +75,13 @@ uvicorn app.main:app --reload
 API Base URL: http://127.0.0.1:8000
 Authentication Flow
 
-- *Create an organization (admin is created automatically)
+- Create an organization (admin is created automatically)
 
-- *Login using admin credentials
+- Login using admin credentials
 
-- *Receive JWT token
+- Receive JWT token
 
-- *Use token to access protected endpoints (UPDATE, DELETE)
+- Use token to access protected endpoints (UPDATE, DELETE)
 
 API Endpoints
 ``` bash
@@ -118,13 +118,13 @@ Admin Organization
 ```
 Design Choices
 
-- **Single Master DB for scalability
+- Single Master DB for scalability
 
-- **Dynamic collections for tenant isolation
+- Dynamic collections for tenant isolation
 
-- **JWT-based stateless authentication
+- JWT-based stateless authentication
 
-- **Async MongoDB operations for performance
+- Async MongoDB operations for performance
 
 Scalability & Trade-offs
 Pros
