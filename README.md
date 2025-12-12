@@ -116,7 +116,7 @@ Admin Organization
   "password": "Pass@123"
 }
 ```
-#Design Choices
+# Design Choices
 
 - Single Master DB for scalability
 
@@ -126,8 +126,8 @@ Admin Organization
 
 - Async MongoDB operations for performance
 
-#Scalability & Trade-offs
-#Pros
+# Scalability & Trade-offs
+# Pros
 
 Easy tenant isolation
 
@@ -135,13 +135,13 @@ Horizontally scalable
 
 Stateless authentication
 
-#Trade-offs
+# Trade-offs
 
 Large number of collections can increase DB management complexity
 
 Cross-tenant analytics need aggregation at master DB level
 
-#Conclusion
+# Conclusion
 
 This architecture is clean, scalable, and production-ready, making it suitable for multi-tenant SaaS-style applications.
 
