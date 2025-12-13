@@ -1,10 +1,12 @@
 # The-Wedding-Compamy-Assignment-PREJAN-RAJA-S---RA2211047010019
-# Wedding Organization Management Service
 
 A backend service built using **FastAPI** and **MongoDB** that supports **multi-tenant organization management**.  
 Each organization has its own dynamically created collection while global metadata is stored in a master database.
 
 This project is implemented as part of a **Backend Intern Assignment**.
+---
+# Live Website 
+https://the-wedding-compamy-assignment-prejan.onrender.com/docs
 
 ---
 
